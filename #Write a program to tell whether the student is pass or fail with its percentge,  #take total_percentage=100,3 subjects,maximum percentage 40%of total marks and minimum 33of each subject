@@ -1,0 +1,10 @@
+#Write a program to tell whether the student is pass or fail with its percentge, 
+#take total_percentage=100,3 subjects,maximum percentage 40%of total marks and minimum 33of each subject
+english=int(input("Enter your english marks:"))
+Maths =int(input("Enter your Maths marks:"))
+biology =int(input("Enter your  biology marks:"))
+total_percentage=(100*(english + Maths + biology ))/300
+if(total_percentage>40 and english>=33 and Maths>=33 and biology>=33):
+    print("you are pass", total_percentage)
+else:
+    print("you are failed please try next year", total_percentage)
