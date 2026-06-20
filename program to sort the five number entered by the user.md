@@ -1,4 +1,4 @@
-#program to find the  greatest of five number entered by the user
+#program to sort of five number entered by the user
 sam=[]
 a=int(input("Enter your number: "))
 sam.append(a)
