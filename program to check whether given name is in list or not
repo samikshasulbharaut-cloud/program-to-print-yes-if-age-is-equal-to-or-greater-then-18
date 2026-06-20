@@ -1,0 +1,7 @@
+#Write a program to check whether given name is in list or not
+username=(input("Enter your name:"))
+List=["Samiksha","Atharv","Sulakshana","Ashok"]
+if(username in List):
+    print("You are in list")
+else:
+    print("you are not in list")    
