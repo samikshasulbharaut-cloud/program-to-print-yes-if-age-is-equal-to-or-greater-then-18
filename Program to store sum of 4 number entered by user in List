@@ -1,0 +1,11 @@
+Program to store sum of 4 number entered by user in List
+List=[]
+L1=int(input("Enter your 1 number: "))
+List.append(L1)
+L2=int(input("Enter your 2 number: "))
+List.append(L2)
+L3=int(input("Enter your 3 number: "))
+List.append(L3)
+L4=int(input("Enter your 4 number: "))
+List.append(L4)
+print("Sum of List is:", sum(List))
